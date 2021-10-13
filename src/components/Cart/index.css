@@ -1,0 +1,95 @@
+.main-cart-container{
+  background-color: #E2E8F0;
+  height: 100%;
+  padding-left: 25px;
+  padding-right:25px;
+  padding-top:25px; 
+  padding-bottom:25px;   
+  margin-top:5px;
+  width: 70vw;
+
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    margin-bottom:120px; 
+  }
+  .cart-img {
+    width: 150px;
+  }
+
+  .cart-heading{
+    font-size: 20px;
+    text-align: end;
+    color: orange;
+    font-weight: bold;
+  }
+
+  .remove-all-btn{
+   background-color: orange;
+   color: white;
+   font-weight: bold;
+   border: none;
+   padding: 8px;
+   border-radius: 4px;
+   cursor: pointer;
+  }
+
+  .myCart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+
+  .order-details-container{
+    display: none;
+  }
+
+
+  @media screen and (min-width:700px){
+    .order-details-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      /* background-color: red; */
+    }
+    
+  }
+
+  .food-item{
+    margin-left: 10px;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  
+
+.item-priceandQuantity{
+  display: flex;
+  width: 28vw;
+  margin-left:200px; 
+  justify-content: space-around;
+
+  }
+  
+
+.food-Quantity{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .food-price{
+
+    color:black;
+    font-weight: bold; 
+    font-size: 20px;
+    align-self:flex-end;
+  }

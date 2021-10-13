@@ -1,0 +1,152 @@
+.restaurant-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image:url('https://res.cloudinary.com/dbmvwqck0/image/upload/v1634029034/Frame_278_lpbjr5.png');
+}
+
+.restaurant{
+    padding: 15px;
+    padding-right:0px; 
+    display:flex;
+}
+
+.restaurant-image{
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.restaurant-details{
+    width:30vw;
+    margin: 15px;
+    align-self: center;
+    font-family: Verdana;
+    color: white;
+
+}
+
+
+.Food-item-list-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.Food-item-list{
+    display: flex;
+    width: row;
+    justify-content: space-around;
+    width: 80vw;
+    flex-wrap: wrap;
+}
+
+.Rating-and-pricing-section{
+    display: flex;
+}
+
+.rating-container{
+   margin-top:-1px; 
+}
+
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    height: 60px;
+    margin-left:15px;
+    margin-right:15px;  
+}
+
+.restaurant-name{
+    font-size:25px;
+}
+
+.start{
+    height: 20px;
+    width: 20px;
+    margin-top: -6px;
+    margin-bottom: -3px;
+    margin-right: 5px; 
+
+}
+
+.restaurant-rating{
+    margin: 5px;
+}
+
+.restaurant-price{
+    margin: 5px;
+}
+
+@media screen and (max-width: 700px){
+    .restaurant-image{
+      align-self: flex-start;
+      width: 250px;
+      height:250px;
+      border-radius: 0px;
+      border-bottom-right-radius: 180px; 
+    }
+    .restaurant-container{
+         display: flex;
+         justify-content: flex-start;
+    }
+    .restaurant{
+        margin-top:0px;
+        align-self:center;
+        padding: 0px;
+        width: 100%;
+        background-color: orange;
+    }
+    .restaurant-container{
+      height:100%;
+      align-self: center;
+    }
+    .restaurant-name{
+        font-size:18px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .restaurant-details{
+        height:25vh;
+        width: 40vw;
+        font-family: sans-serif;
+    }
+    .restaurant-cuisine{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .location{
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px){
+    .Rating-and-pricing-section{
+
+        width:30vw;
+    }
+    .rating-container{
+        text-align: center;
+    }
+    .price-container{
+        text-align: center;
+    }
+    .vertical-line{
+        height: 50px;
+        margin: 10px;
+    }
+}
+
+
+
+.products-details-loader-container{
+    display:flex;
+    height:150vh;
+    align-items:center;
+    justify-content:center;
+}
