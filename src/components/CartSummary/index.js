@@ -6,7 +6,7 @@ import './index.css'
 const CartSummary = () => (
   <CartContext.Consumer>
     {value => {
-      const {cartList} = value
+    const {cartList, removeAllCartItems} = value
       let total = 0
       cartList.forEach(eachCartItem => {
         total += eachCartItem.cost * eachCartItem.quantity
@@ -19,7 +19,10 @@ const CartSummary = () => (
           className: "SwalBtn",
           closeModal: true    
         }} })
+        removeAllCartItems()
+
       }
+
 
       return (
         <>

@@ -103,11 +103,11 @@ class LoginForm extends Component {
           <img
             src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1634032692/Frame_274_vzeums.png"
             className="login-website-logo-desktop-image"
-            alt="website logo"
+            alt="website-logo"
           />
           <img 
             className = "small-screen-logo" src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1629271550/Rectangle_1457_fxru4c.png"
-          alit = "small-screen-logo"/>
+          alt = "small-screen-logo"/>
           <h1 className="heading">Tasty Kitchens</h1>
           <p className="LoginHeading">Login</p>
           <div className="input-container">{this.renderUsernameField()}</div>
