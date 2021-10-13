@@ -8,8 +8,7 @@ const SimilarFoodItem = props => (
    
   <CartContext.Consumer>
     {value => {
-    const {addCartItem, cartList, incrementCartItemQuantity,
-        decrementCartItemQuantity} = value
+    const {addCartItem, decrementCartItemQuantity} = value
     
     const onClickAddToCart = () => {
         addCartItem({...similarFoodData, quantity})
@@ -48,11 +47,11 @@ const SimilarFoodItem = props => (
 return(
   <li className="similar-product-item">
      <div className="similar-product-container">
-       <img className = "foodImage" src={imageUrl} />
+       <img className = "foodImage" src={imageUrl} alt={name}/>
      <div className="dishes-detail">
      <h1 className="foodNames">{name}</h1>
      <p className="cost"><BiRupee className="rupee"/>{cost}.00</p>
-     <p className="rating"><img className = "star" src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1633755694/7_Rating_apvj2o.png" />{rating}</p>
+     <p className="rating"><img className = "star" src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1633755694/7_Rating_apvj2o.png" alt="rating"/>{rating}</p>
         { btnStatus ? (<div className="quantity-container">
                   <button
                     type="button"

@@ -144,20 +144,20 @@ class ProductItemDetails extends Component{
 
   renderProductDetailsView = () => {
           const {productData, similarFoodData} = this.state
-          const {id, imageUrl, name, location, cuisine , opensAt, rating, cost } = productData
+          const { imageUrl, name, location, cuisine , rating, cost } = productData
   
           return (
             <>
             <div className="restaurant-container">
             <div className="restaurant">
-               <img className="restaurant-image" src={imageUrl} alt="restaurant-image"/>
+               <img className="restaurant-image" src={imageUrl} alt="restaurant"/>
                <div className="restaurant-details">
                   <h1 className="restaurant-name">{name}</h1>
                   <p className="restaurant-cuisine">{cuisine}</p>
                   <p className="location">{location}</p>
                   <div className="Rating-and-pricing-section">
                   <div className="rating-container">
-                  <p className="restaurant-rating"><img className="start" src="https://assets.ccbp.in/frontend/react-js/star-img.png" />{rating}</p>
+                  <p className="restaurant-rating"><img className="start" src="https://assets.ccbp.in/frontend/react-js/star-img.png" alt="restaurant-rating" />{rating}</p>
                   <span className="">200+ ratings</span>
                    </div>  
                    <span className="vertical-line"></span>

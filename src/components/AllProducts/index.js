@@ -101,7 +101,7 @@ class AllProductsSection extends Component {
   }
 
   renderProductsList = () => {
-    const {productsList, activeOptionId, offsetNum} = this.state
+    const {productsList, offsetNum} = this.state
     return (
       <>
         <div className="productContainer">

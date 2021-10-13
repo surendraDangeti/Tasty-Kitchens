@@ -18,7 +18,7 @@ const Header = props => {
   <Container className="backgroundContainer">
   <Navbar.Brand>
   <div className="logoContainer">
-  <img className="navLogo" src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1634032692/Frame_274_vzeums.png" />
+  <img className="navLogo" src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1634032692/Frame_274_vzeums.png"  alt ="logo"/>
   <Nav.Link className="webSiteHeading"  variant="light" href="#features">Tasty Kitchens</Nav.Link>
   </div>
   </Navbar.Brand>
