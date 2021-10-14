@@ -23,3 +23,11 @@
     }
   }
 
+  @media screen and (max-width: 370px){
+    .offersImage{
+      min-height: 120px;
+      max-width: 365px;
+      border-radius:8px;
+     object-fit: cover;
+    }
+  }

@@ -96,8 +96,7 @@
         margin-top:0px;
         align-self:center;
         padding: 0px;
-        width: 100%;
-        background-color: orange;
+        width: 40vw;
     }
     .restaurant-container{
       height:100%;
@@ -149,4 +148,100 @@
     height:150vh;
     align-items:center;
     justify-content:center;
+}
+
+
+@media screen and (max-width: 370px){
+    .restaurant-image{
+        width:221px;
+        height:221px;
+        margin-left: -68px;
+        margin-top: -54px;
+        border-radius: 133.9812469482422px;
+
+      }
+      .restaurant-container{
+        display: flex;
+        justify-content: flex-start;
+   }
+   .restaurant{
+       margin-top:0px;
+       align-self:center;
+       padding: 0px;
+       height: 100%;
+       width: 100vw;
+   }
+   .restaurant-container{
+     height:100%;
+     align-self: center;
+   }
+   .restaurant-name{
+       font-size:15px;
+       font-weight: bold;
+       font-family: sans-serif;
+   }
+   .restaurant-details{
+       height:30vh;
+       width: 35vw;
+       font-family: sans-serif;
+   }
+   .restaurant-cuisine{
+       font-size: 14px;
+       font-family: sans-serif;
+   }
+   
+   .location{
+       margin-top:-15px; 
+       font-size: 13px;
+       font-family: sans-serif;
+   }
+   .Rating-and-pricing-section{
+       width:100vw;
+       min-height: 60px;
+       margin-left:-5px;
+       margin-top: -15px;
+       text-align: center;
+    
+    }
+.rating-container{
+    text-align: center;
+}
+.price-container{
+    text-align: center;
+}
+.vertical-line{
+    height: 50px;
+    margin: 10px;
+}
+.start{
+    margin-left:0px;
+    margin-right:0px;  
+    font-size: 10px;
+}
+.restaurant-rating{
+    font-size: 13px;
+}
+ .numOf-rating{
+     font-size: 14px;
+ }
+ .restaurant-price{
+     font-size: 14px;
+ }
+ .costForTwo{
+    font-size: 14px;
+ }
+ .vertical-line{
+     min-height: 50px;
+ }
+
+}
+
+@media screen and (max-width: 370px){
+.Food-item-list-container{
+  display: flex;
+  justify-content: flex-start;
+}
+.Food-item-list{
+    width: 100%;
+}
 }

@@ -31,7 +31,7 @@
 
 .sub{
 display: flex;
-width: 80%; 
+width: 86%; 
 height: 70vh;
 background-color: white;
 } 
@@ -46,8 +46,15 @@ background-color: white;
    .sub{
      flex-direction: column;
      height: 100%;
+     width: 100%;
    }
 
+}
+
+@media screen and (max-width:370px){
+  .sub{
+    width: 100%;
+  }
 }
 
 .nextAndpreviewBtn-container{

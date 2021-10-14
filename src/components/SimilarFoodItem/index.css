@@ -9,7 +9,7 @@
 
 .similar-product-container{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .foodImage{
@@ -90,6 +90,38 @@
     font-size: 18px;
     font-family: sans-serif;
     margin-top:2px; 
+  }
+  .similar-product-container{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .foodImage{
+    max-width: 160px !important;
+    height: 120px;
+  }
+  .similar-product-container{
+     width: 300px;
+     margin: 0px;
+
+     justify-items: none;
+  }
+  .dishes-detail{
+     
+    align-self: flex-start;
+    justify-content: flex-start;
+  }
+  .foodNames{
+    margin-top:15px; 
+    font-size: 14px;
+  }
+  .cost{
+    font-size: 14px;
+  }
+  .rating{
+    margin-top:0px; 
   }
 }
 

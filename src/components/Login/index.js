@@ -106,7 +106,7 @@ class LoginForm extends Component {
             alt="website-logo"
           />
           <img 
-            className = "small-screen-logo" src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1629271550/Rectangle_1457_fxru4c.png"
+            className = "small-screen-logo" src="https://res.cloudinary.com/dbmvwqck0/image/upload/v1633096068/Rectangle_1456_1_tyntym.png"
           alt = "small-screen-logo"/>
           <h1 className="heading">Tasty Kitchens</h1>
           <p className="LoginHeading">Login</p>

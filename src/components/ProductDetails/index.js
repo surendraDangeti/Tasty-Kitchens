@@ -158,12 +158,12 @@ class ProductItemDetails extends Component{
                   <div className="Rating-and-pricing-section">
                   <div className="rating-container">
                   <p className="restaurant-rating"><img className="start" src="https://assets.ccbp.in/frontend/react-js/star-img.png" alt="restaurant-rating" />{rating}</p>
-                  <span className="">200+ ratings</span>
+                  <span className="numOf-rating">200+ ratings</span>
                    </div>  
                    <span className="vertical-line"></span>
                     <div className="price-container">
                   <p className="restaurant-price"><BiRupee/>{cost}</p>
-                  <span className="">cost for two</span>
+                  <span className="costForTwo">cost for two</span>
                    </div>
                    </div>        
                </div>
