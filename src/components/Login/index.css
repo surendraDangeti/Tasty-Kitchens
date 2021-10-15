@@ -242,10 +242,10 @@
           font-size: 10px; 
        }
        .input-container{
-           min-height: 12vh;
+           min-height: 80px;
        }
        .login-form-container{
-           height: 100vh;
+           min-height: 100%;
            overflow: hidden;
        }
   }
