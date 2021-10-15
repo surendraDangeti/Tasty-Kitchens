@@ -3,6 +3,7 @@
     padding: 15px;
     background: white;
     object-fit: cover;
+    overflow: hidden;
 
   }
 

@@ -1,8 +1,9 @@
 .restaurant-container{
     display: flex;
-    width: 100%;
+    min-width: 100%;
     justify-content: center;
     background-image:url('https://res.cloudinary.com/dbmvwqck0/image/upload/v1634029034/Frame_278_lpbjr5.png');
+    overflow: hidden;
 }
 
 .restaurant{

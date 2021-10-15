@@ -57,7 +57,7 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      /* background-color: red; */
+
     }
     
   }
@@ -106,4 +106,17 @@
       width: 100vw;
       max-width: 100%;
     }
+    .remove-all-btn{
+      width: 75px;
+      padding: 10px;
+      font-size: 10px;
+      border-radius:4px;
+      margin-right:5px;  
+    }
+    .cart-heading{
+      font-size: 15px;
+      margin-right:10px;  
+
+    }
+    
   }
